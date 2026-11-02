@@ -44,7 +44,7 @@ function WorkWithMark() {
             </button>
           </div>
           <div className="work-popover-options">
-            <a className="work-popover-option" href="https://calendly.com/" target="_blank" rel="noreferrer">
+            <a className="work-popover-option" href="https://calendly.com/markberio30/30min" target="_blank" rel="noreferrer">
               <span className="work-popover-icon"><Icon name="calendar" size={17} /></span>
               <span><strong>Schedule a Meeting</strong><small>Book a time through Calendly</small></span>
               <Icon name="arrow" size={15} />

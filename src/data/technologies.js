@@ -1,7 +1,7 @@
 const technologyGroups = [
   {
     name: 'Frontend',
-    technologies: ['React', 'CSS', 'HTML', 'JavaScript', 'Tailwind CSS', 'Bootstrap'],
+    technologies: ['React', 'CSS', 'HTML', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'Vite',],
   },
   {
     name: 'Design & Editing Pictures',

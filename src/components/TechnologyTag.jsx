@@ -9,9 +9,8 @@ export const technologyIcons = {
   'Tailwind CSS': 'tailwindcss',
   'Node.js': 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/nodejs/default.svg',
   Bootstrap: 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/bootstrap/default.svg',
-  Firebase: 'firebase',
-  Shopify: 'shopify',
-  
+  Vite: 'vite',
+
   //Design & Editing Pictures
   Canva: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg',
   Figma: 'figma',
