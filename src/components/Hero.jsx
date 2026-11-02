@@ -4,7 +4,7 @@ import sanjiImage from '../assets/sanji.jpg'
 
 const stats = [
   { value: '3', label: 'Months of experience work' },
-  { value: '16', label: 'Projects Built' },
+  { value: '7', label: 'Projects Built' },
   { value: 'Global', label: 'International Clients' },
 ]
 
