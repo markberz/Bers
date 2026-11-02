@@ -55,7 +55,7 @@ function Hero() {
           </div>
         </div>
 
-        <h1>I Create, Code, and <span>Build.</span></h1>
+        <h1>I Create, Code, and Build.</h1>
         <p className="hero-description">
             I'm a Web Developer with skills in web development and embedded systems, along with an interest in SEO and emerging digital technologies. I build websites and digital solutions using technologies such as React, Rust, and C++. I also have knowledge of computer troubleshooting, hardware maintenance, and software configuration. I'm passionate about learning new technologies, solving problems, and turning ideas into practical digital solutions.        </p>
         <div className="hero-actions">
