@@ -18,7 +18,7 @@ const technologyGroups = [
   },
   {
     name: 'AI & Intelligent Systems',
-    technologies: ['Gemini AI', 'OpenAI', 'Groq AI', 'Claude AI', 'OpenRouter AI', 'GitHub Copilot'],
+    technologies: ['Gemini AI', 'OpenAI', 'Groq AI', 'Claude AI', 'OpenRouter AI', 'GitHub Copilot', 'AI Prompting'],
   },
   {
      name: 'Technical Operations',

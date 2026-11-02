@@ -42,6 +42,7 @@ export const technologyIcons = {
   'Claude AI': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/claude/claude-original.svg',
   'OpenRouter AI': 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/openrouter/default.svg',
   'GitHub Copilot': 'https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github-copilot/default.svg',
+  'AI Prompting': 'https://cdn.jsdelivr.net/npm/lucide-static/icons/bot.svg',
 
   // Technical Operations
   'Computer Troubleshooting': 'https://cdn.jsdelivr.net/gh/Templarian/MaterialDesign@master/svg/tools.svg',
@@ -74,6 +75,14 @@ export const technologyIconsWhiteOnDark = new Set([
   'Printer Installation',
   'Remote Technical Support',
   'Data Encoding',
+  'AI Prompting',
+])
+
+export const technologyIconsBlackOnLight = new Set([
+  'OpenAI',
+  'Groq AI',
+  'OpenRouter AI',
+  'GitHub Copilot',
 ])
 
 function TechnologyTag({ name }) {
@@ -81,14 +90,14 @@ function TechnologyTag({ name }) {
   const iconSource = icon
     ? icon.startsWith('https://') ? icon : `https://cdn.simpleicons.org/${icon}`
     : technologyFallbackIcon
-  const iconClassName = technologyIconsWhiteOnDark.has(name)
-    ? 'technology-icon-slot technology-icon-white-on-dark'
-    : 'technology-icon-slot'
+  const iconClassNames = ['technology-icon-slot']
+  if (technologyIconsWhiteOnDark.has(name)) iconClassNames.push('technology-icon-white-on-dark')
+  if (technologyIconsBlackOnLight.has(name)) iconClassNames.push('technology-icon-black-on-light')
 
   return (
     <span className="technology-tag">
       <img
-        className={iconClassName}
+        className={iconClassNames.join(' ')}
         src={iconSource}
         alt=""
         aria-hidden="true"

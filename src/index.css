@@ -1854,6 +1854,10 @@ button {
   filter: brightness(0) invert(1);
 }
 
+:root[data-theme='light'] .technology-icon-black-on-light {
+  filter: brightness(0);
+}
+
 .technology-list-preview {
   display: flex;
   flex-direction: column;
