@@ -5,7 +5,7 @@ import sanjiImage from '../assets/sanji.jpg'
 const stats = [
   { value: '3', label: 'Months of experience work' },
   { value: '16', label: 'Projects Built' },
-  { value: 'Philippines', label: 'Local Clients' },
+  { value: 'Global', label: 'International Clients' },
 ]
 
 function Hero() {
@@ -40,7 +40,7 @@ function Hero() {
             <p className="profile-name">
               Mark Berio <span className="verified-mark" role="img" aria-label="Verified"><Icon name="verified" size={26} /></span>
             </p>
-            <p className="profile-role">Full Stack Web development · Embedded Systems · Technical Support</p>
+            <p className="profile-role">Web Development · Embedded Systems · Technical Support</p>
             <div className="social-links">
               <a href="https://github.com/markberz" target="_blank" rel="noreferrer" aria-label="GitHub">
                 <Icon name="github" size={17} />
@@ -55,14 +55,13 @@ function Hero() {
           </div>
         </div>
 
-        <h1>I Design. Code. <span>Innovate.</span></h1>
+        <h1>I Create, Code, and <span>Build.</span></h1>
         <p className="hero-description">
-          I'm a Web Developer with skills in full-stack development, embedded systems, and an interest in SEO and digital technologies. I develop websites and digital solutions using technologies like React, Rust, and C++. I also have knowledge of computer troubleshooting, hardware and software maintenance. I'm passionate about learning new technologies, solving problems, and turning ideas into practical digital solutions.
-        </p>
+            I'm a Web Developer with skills in web development and embedded systems, along with an interest in SEO and emerging digital technologies. I build websites and digital solutions using technologies such as React, Rust, and C++. I also have knowledge of computer troubleshooting, hardware maintenance, and software configuration. I'm passionate about learning new technologies, solving problems, and turning ideas into practical digital solutions.        </p>
         <div className="hero-actions">
           <a
             className="hero-button"
-            href="https://drive.google.com/file/d/1HQTsyu9y_En00rmqWao8mXbbkdyLbIZh/view?usp=drive_link"
+            href="https://tinyurl.com/3rts6833"
             target="_blank"
             rel="noreferrer noopener"
           >

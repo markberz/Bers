@@ -14,7 +14,7 @@ function Projects({ onViewAll }) {
       </div>
       <div className="projects-cta-wrap">
         <a className="projects-cta" href="#projects" onClick={onViewAll}>
-          Explore 20+ Projects <span aria-hidden="true">›</span>
+          Explore Projects <span aria-hidden="true">›</span>
         </a>
       </div>
     </section>
