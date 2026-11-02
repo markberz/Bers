@@ -60,7 +60,14 @@ function Hero() {
           I'm a Web Developer with skills in full-stack development, embedded systems, and an interest in SEO and digital technologies. I develop websites and digital solutions using technologies like React, Rust, and C++. I also have knowledge of computer troubleshooting, hardware and software maintenance. I'm passionate about learning new technologies, solving problems, and turning ideas into practical digital solutions.
         </p>
         <div className="hero-actions">
-          <a className="hero-button" href="#experience">View Resume <Icon name="arrow" size={15} /></a>
+          <a
+            className="hero-button"
+            href="https://drive.google.com/file/d/1HQTsyu9y_En00rmqWao8mXbbkdyLbIZh/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            View Resume <Icon name="arrow" size={15} />
+          </a>
         </div>
       </div>
 
